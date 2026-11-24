@@ -44,7 +44,13 @@ export default function App() {
   const [foodData, setFoodData] = useState(() => {
     try {
       const stored = localStorage.getItem('bitedash_food_data');
-      return stored ? JSON.parse(stored) : FOOD_DATA;
+      if (stored) {
+        const parsed = JSON.parse(stored);
+        if (Array.isArray(parsed) && parsed.length >= FOOD_DATA.length) {
+          return parsed;
+        }
+      }
+      return FOOD_DATA;
     } catch {
       return FOOD_DATA;
     }

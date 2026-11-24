@@ -1859,7 +1859,794 @@ export const FOOD_DATA = [
     description: "Thick ice-blended dark Belgian chocolate and espresso shake crowned with whipped cream and chocolate fudge drizzle.",
     sizes: [{ name: "Regular (350ml)", price: 0 }, { name: "Large (475ml)", price: 30 }],
     toppings: [{ name: "Extra Whipped Cream", price: 25 }]
-  }
+  },
+{
+  "id": 109,
+  "restaurantId": "r1",
+  "restaurantName": "Bawarchi Dum Biryani House",
+  "name": "Mutton Seekh Kebab Platter",
+  "category": "Starters & Kebabs",
+  "price": 369,
+  "rating": 4.9,
+  "reviews": 520,
+  "prepTime": "20 min",
+  "calories": "520 kcal",
+  "diet": "non-veg",
+  "spice": "🌶️🌶️ Spicy",
+  "available": true,
+  "image": "images/kebab.jpg",
+  "description": "Finely minced young mutton blended with secret royal spices, charcoal grilled on skewers. Served with mint chutney and onion rings.",
+  "sizes": [
+    {
+      "name": "4 Pieces",
+      "price": 0
+    },
+    {
+      "name": "8 Pieces (Family)",
+      "price": 280
+    }
+  ],
+  "toppings": [
+    {
+      "name": "Extra Mint Chutney",
+      "price": 20
+    },
+    {
+      "name": "Rumali Roti (2 pcs)",
+      "price": 40
+    }
+  ]
+},
+{
+  "id": 110,
+  "restaurantId": "r1",
+  "restaurantName": "Bawarchi Dum Biryani House",
+  "name": "Hyderabadi Double Ka Meetha",
+  "category": "Desserts & Drinks",
+  "price": 149,
+  "rating": 4.8,
+  "reviews": 410,
+  "prepTime": "5 min",
+  "calories": "380 kcal",
+  "diet": "veg",
+  "spice": "🟢 Sweet",
+  "available": true,
+  "image": "images/indian_sweets.jpg",
+  "description": "Traditional Nizam royal dessert made with fried bread slices soaked in saffron rabri, infused with cardamom and topped with toasted cashews.",
+  "sizes": [
+    {
+      "name": "Standard Bowl (150g)",
+      "price": 0
+    },
+    {
+      "name": "Large Bowl (300g)",
+      "price": 120
+    }
+  ],
+  "toppings": [
+    {
+      "name": "Extra Khoya Rabri",
+      "price": 35
+    }
+  ]
+},
+{
+  "id": 209,
+  "restaurantId": "r2",
+  "restaurantName": "Milano Woodfired Pizzeria",
+  "name": "Four Cheese Creamy Truffle Pasta",
+  "category": "Pasta & Mains",
+  "price": 389,
+  "rating": 4.8,
+  "reviews": 340,
+  "prepTime": "18 min",
+  "calories": "620 kcal",
+  "diet": "veg",
+  "spice": "🟢 Mild",
+  "available": true,
+  "image": "images/pasta.jpg",
+  "description": "Al dente penne tossed in rich parmesan, mozzarella, gorgonzola, and cheddar cream sauce with white truffle essence and fresh basil.",
+  "sizes": [
+    {
+      "name": "Single Portion",
+      "price": 0
+    },
+    {
+      "name": "Large Bowl with Garlic Bread",
+      "price": 90
+    }
+  ],
+  "toppings": [
+    {
+      "name": "Extra Grated Parmesan",
+      "price": 30
+    },
+    {
+      "name": "Toasted Garlic Bread (2 pcs)",
+      "price": 45
+    }
+  ]
+},
+{
+  "id": 210,
+  "restaurantId": "r2",
+  "restaurantName": "Milano Woodfired Pizzeria",
+  "name": "Classic Italian Coffee Tiramisu",
+  "category": "Desserts",
+  "price": 219,
+  "rating": 4.9,
+  "reviews": 490,
+  "prepTime": "5 min",
+  "calories": "340 kcal",
+  "diet": "veg",
+  "spice": "🟢 Sweet",
+  "available": true,
+  "image": "images/dessert.jpg",
+  "description": "Authentic Savoiardi ladyfinger sponge dipped in espresso, layered with whipped mascarpone cream and dusted with Dutch cocoa powder.",
+  "sizes": [
+    {
+      "name": "Single Slice",
+      "price": 0
+    }
+  ],
+  "toppings": [
+    {
+      "name": "Dark Chocolate Shavings",
+      "price": 20
+    }
+  ]
+},
+{
+  "id": 309,
+  "restaurantId": "r3",
+  "restaurantName": "The Smash Burger Garage",
+  "name": "Loaded Peri-Peri Crinkle Fries",
+  "category": "Sides & Bites",
+  "price": 159,
+  "rating": 4.8,
+  "reviews": 620,
+  "prepTime": "10 min",
+  "calories": "380 kcal",
+  "diet": "veg",
+  "spice": "🌶️ Medium",
+  "available": true,
+  "image": "images/fries.jpg",
+  "description": "Extra-crispy crinkle cut fries dusted in zesty African peri-peri seasoning and drizzled with melted cheddar cheese sauce.",
+  "sizes": [
+    {
+      "name": "Regular Tub",
+      "price": 0
+    },
+    {
+      "name": "Monster Mega Tub",
+      "price": 70
+    }
+  ],
+  "toppings": [
+    {
+      "name": "Extra Cheese Jalapeno Dip",
+      "price": 25
+    },
+    {
+      "name": "Bacon Crunch Bits",
+      "price": 35
+    }
+  ]
+},
+{
+  "id": 310,
+  "restaurantId": "r3",
+  "restaurantName": "The Smash Burger Garage",
+  "name": "Crispy Golden Fried Chicken Tenders",
+  "category": "Crispy Chicken",
+  "price": 269,
+  "rating": 4.9,
+  "reviews": 580,
+  "prepTime": "15 min",
+  "calories": "510 kcal",
+  "diet": "non-veg",
+  "spice": "🌶️ Mild Spice",
+  "available": true,
+  "image": "images/fried_chicken.jpg",
+  "description": "Buttermilk marinated juicy chicken tenderloins breaded in panko crumbs and fried to golden perfection. Served with honey mustard dip.",
+  "sizes": [
+    {
+      "name": "4 Tenders",
+      "price": 0
+    },
+    {
+      "name": "8 Tenders Bucket",
+      "price": 190
+    }
+  ],
+  "toppings": [
+    {
+      "name": "Smoky BBQ Dip",
+      "price": 20
+    },
+    {
+      "name": "Spicy Ghost Pepper Dip",
+      "price": 25
+    }
+  ]
+},
+{
+  "id": 408,
+  "restaurantId": "r4",
+  "restaurantName": "Sakura Tokyo Sushi Bar",
+  "name": "Fiery Tokyo Shoyu Ramen",
+  "category": "Ramen & Bowls",
+  "price": 429,
+  "rating": 4.9,
+  "reviews": 430,
+  "prepTime": "20 min",
+  "calories": "580 kcal",
+  "diet": "non-veg",
+  "spice": "🌶️🌶️ Spicy",
+  "available": true,
+  "image": "images/ramen.jpg",
+  "description": "Springy wheat ramen noodles in 12-hour rich savory shoyu broth with tender marinated chicken, ramen egg, nori seaweed, and scallions.",
+  "sizes": [
+    {
+      "name": "Classic Bowl",
+      "price": 0
+    },
+    {
+      "name": "Jumbo Sumo Bowl",
+      "price": 110
+    }
+  ],
+  "toppings": [
+    {
+      "name": "Ajitsuke Tamago (Marinated Egg)",
+      "price": 40
+    },
+    {
+      "name": "Extra Bamboo Shoots",
+      "price": 30
+    }
+  ]
+},
+{
+  "id": 409,
+  "restaurantId": "r4",
+  "restaurantName": "Sakura Tokyo Sushi Bar",
+  "name": "Steamed Edamame & Truffle Dimsums",
+  "category": "Dim Sum & Appetizers",
+  "price": 319,
+  "rating": 4.8,
+  "reviews": 290,
+  "prepTime": "15 min",
+  "calories": "280 kcal",
+  "diet": "veg",
+  "spice": "🟢 Mild",
+  "available": true,
+  "image": "images/momos.jpg",
+  "description": "Translucent crystal dimsums stuffed with tender sweet edamame, water chestnuts, and wild forest mushrooms drizzled with white truffle oil.",
+  "sizes": [
+    {
+      "name": "6 Pieces",
+      "price": 0
+    }
+  ],
+  "toppings": [
+    {
+      "name": "Spicy Chilli Garlic Dip",
+      "price": 20
+    }
+  ]
+},
+{
+  "id": 508,
+  "restaurantId": "r5",
+  "restaurantName": "Pure Green Buddha Bowls",
+  "name": "Avocado Guacamole Crunch Toast",
+  "category": "Artisan Toasts",
+  "price": 249,
+  "rating": 4.8,
+  "reviews": 310,
+  "prepTime": "10 min",
+  "calories": "320 kcal",
+  "diet": "veg",
+  "spice": "🟢 Mild",
+  "available": true,
+  "image": "images/nachos.jpg",
+  "description": "Toasted sourdough bread topped with freshly smashed Hass avocado, cherry tomatoes, pumpkin seeds, feta crumbles, and chilli flakes.",
+  "sizes": [
+    {
+      "name": "2 Slices",
+      "price": 0
+    }
+  ],
+  "toppings": [
+    {
+      "name": "Organic Poached Egg",
+      "price": 30
+    },
+    {
+      "name": "Extra Greek Feta",
+      "price": 25
+    }
+  ]
+},
+{
+  "id": 608,
+  "restaurantId": "r6",
+  "restaurantName": "El Cantina Street Tacos",
+  "name": "Loaded Cheesy Nachos Supreme",
+  "category": "Fiesta Platters",
+  "price": 249,
+  "rating": 4.8,
+  "reviews": 510,
+  "prepTime": "12 min",
+  "calories": "560 kcal",
+  "diet": "veg",
+  "spice": "🌶️ Medium",
+  "available": true,
+  "image": "images/nachos.jpg",
+  "description": "Crispy stone-ground corn tortilla chips baked with spiced refried beans, melted Mexican cheese blend, pico de gallo, and sour cream.",
+  "sizes": [
+    {
+      "name": "Regular Fiesta Plate",
+      "price": 0
+    },
+    {
+      "name": "Grande Platter with Salsa",
+      "price": 80
+    }
+  ],
+  "toppings": [
+    {
+      "name": "Fresh Guacamole Scoop",
+      "price": 40
+    },
+    {
+      "name": "Pickled Jalapenos",
+      "price": 20
+    }
+  ]
+},
+{
+  "id": 609,
+  "restaurantId": "r6",
+  "restaurantName": "El Cantina Street Tacos",
+  "name": "Cinnamon Sugar Mexican Churros",
+  "category": "Postres (Desserts)",
+  "price": 179,
+  "rating": 4.9,
+  "reviews": 440,
+  "prepTime": "10 min",
+  "calories": "380 kcal",
+  "diet": "veg",
+  "spice": "🟢 Sweet",
+  "available": true,
+  "image": "images/churros.jpg",
+  "description": "Golden fried Mexican pastry strips dusted in fragrant Ceylon cinnamon sugar. Served with warm Belgian dark chocolate dipping sauce.",
+  "sizes": [
+    {
+      "name": "4 Long Churros",
+      "price": 0
+    },
+    {
+      "name": "8 Churros Party Box",
+      "price": 120
+    }
+  ],
+  "toppings": [
+    {
+      "name": "Dulce de Leche Caramel Dip",
+      "price": 25
+    }
+  ]
+},
+{
+  "id": 708,
+  "restaurantId": "r7",
+  "restaurantName": "Velvet Chocolate Cafe & Boba",
+  "name": "Belgian Nutella & Strawberry Waffle",
+  "category": "Artisan Waffles",
+  "price": 219,
+  "rating": 4.9,
+  "reviews": 670,
+  "prepTime": "12 min",
+  "calories": "480 kcal",
+  "diet": "veg",
+  "spice": "🟢 Sweet",
+  "available": true,
+  "image": "images/waffle.jpg",
+  "description": "Crisp outside and fluffy inside Belgian waffle smothered in melted Nutella, sliced fresh strawberries, and roasted almond flakes.",
+  "sizes": [
+    {
+      "name": "Single Large Waffle",
+      "price": 0
+    },
+    {
+      "name": "Double Stack with Ice Cream",
+      "price": 80
+    }
+  ],
+  "toppings": [
+    {
+      "name": "Vanilla Bean Ice Cream Scoop",
+      "price": 35
+    },
+    {
+      "name": "Extra Nutella Drizzle",
+      "price": 30
+    }
+  ]
+},
+{
+  "id": 709,
+  "restaurantId": "r7",
+  "restaurantName": "Velvet Chocolate Cafe & Boba",
+  "name": "New York Creamy Baked Cheesecake",
+  "category": "Gourmet Cakes",
+  "price": 249,
+  "rating": 4.9,
+  "reviews": 580,
+  "prepTime": "5 min",
+  "calories": "410 kcal",
+  "diet": "veg",
+  "spice": "🟢 Sweet",
+  "available": true,
+  "image": "images/cheesecake.jpg",
+  "description": "Silky smooth Philadelphia cream cheese filling baked on a buttery graham cracker crust with a light berry compote drizzle.",
+  "sizes": [
+    {
+      "name": "Single Gourmet Slice",
+      "price": 0
+    }
+  ],
+  "toppings": [
+    {
+      "name": "Wild Blueberry Compote",
+      "price": 30
+    }
+  ]
+},
+{
+  "id": 808,
+  "restaurantId": "r8",
+  "restaurantName": "Punjab Grill & Tandoor Express",
+  "name": "Amritsari Paneer Tikka Masala",
+  "category": "Main Course (Gravy)",
+  "price": 319,
+  "rating": 4.8,
+  "reviews": 690,
+  "prepTime": "20 min",
+  "calories": "620 kcal",
+  "diet": "veg",
+  "spice": "🌶️ Medium",
+  "available": true,
+  "image": "images/curry_naan.jpg",
+  "description": "Charcoal grilled soft cottage cheese cubes simmered in a velvety tomato cashew makhani gravy enriched with kasuri methi and butter.",
+  "sizes": [
+    {
+      "name": "Standard Bowl (400ml)",
+      "price": 0
+    },
+    {
+      "name": "Family Handi (750ml)",
+      "price": 180
+    }
+  ],
+  "toppings": [
+    {
+      "name": "Butter Garlic Naan (2 pcs)",
+      "price": 89
+    },
+    {
+      "name": "Lachha Paratha",
+      "price": 45
+    }
+  ]
+},
+{
+  "id": 809,
+  "restaurantId": "r8",
+  "restaurantName": "Punjab Grill & Tandoor Express",
+  "name": "Tandoori Chicken Malai Tikka",
+  "category": "Tandoori Starters",
+  "price": 349,
+  "rating": 4.9,
+  "reviews": 730,
+  "prepTime": "20 min",
+  "calories": "510 kcal",
+  "diet": "non-veg",
+  "spice": "🟢 Mild & Creamy",
+  "available": true,
+  "image": "images/kebab.jpg",
+  "description": "Boneless chicken thigh chunks marinated in fresh cream, cream cheese, cardamom, and white pepper, roasted over charcoal coals.",
+  "sizes": [
+    {
+      "name": "6 Pieces",
+      "price": 0
+    },
+    {
+      "name": "12 Pieces Party Platter",
+      "price": 290
+    }
+  ],
+  "toppings": [
+    {
+      "name": "Mint Mayo Dip",
+      "price": 20
+    },
+    {
+      "name": "Spicy Onion Salad",
+      "price": 15
+    }
+  ]
+},
+{
+  "id": 908,
+  "restaurantId": "r9",
+  "restaurantName": "Madras Tiffin Room (MTR 1924)",
+  "name": "Crispy Medu Vada Sambar Combo",
+  "category": "Tiffin Specials",
+  "price": 119,
+  "rating": 4.9,
+  "reviews": 1120,
+  "prepTime": "8 min",
+  "calories": "310 kcal",
+  "diet": "veg",
+  "spice": "🌶️ Medium",
+  "available": true,
+  "image": "images/idli_vada.jpg",
+  "description": "Two golden-fried crispy lentil vadas with crunchy crust and spongy center, dunked in piping hot drumstick sambar and coconut chutney.",
+  "sizes": [
+    {
+      "name": "2 Vadas + Sambar",
+      "price": 0
+    },
+    {
+      "name": "Idli-Vada Combo (2 Idli + 1 Vada)",
+      "price": 25
+    }
+  ],
+  "toppings": [
+    {
+      "name": "Extra Sambar Bowl",
+      "price": 20
+    },
+    {
+      "name": "Pure Cow Ghee Dip",
+      "price": 25
+    }
+  ]
+},
+{
+  "id": 909,
+  "restaurantId": "r9",
+  "restaurantName": "Madras Tiffin Room (MTR 1924)",
+  "name": "Steaming Rava Idli with Coconut Chutney",
+  "category": "Tiffin Specials",
+  "price": 99,
+  "rating": 4.8,
+  "reviews": 840,
+  "prepTime": "8 min",
+  "calories": "260 kcal",
+  "diet": "veg",
+  "spice": "🟢 Mild",
+  "available": true,
+  "image": "images/south_indian.jpg",
+  "description": "Traditional roasted semolina steamed cakes spiced with mustard seeds, curry leaves, ginger, and cashews. Served with potato sagu.",
+  "sizes": [
+    {
+      "name": "2 Pieces",
+      "price": 0
+    }
+  ],
+  "toppings": [
+    {
+      "name": "Tomato Garlic Chutney",
+      "price": 15
+    }
+  ]
+},
+{
+  "id": 1008,
+  "restaurantId": "r10",
+  "restaurantName": "Wok & Roll Asian Street",
+  "name": "Schezwan Egg Hakka Noodles",
+  "category": "Noodles & Rice",
+  "price": 249,
+  "rating": 4.8,
+  "reviews": 620,
+  "prepTime": "15 min",
+  "calories": "520 kcal",
+  "diet": "non-veg",
+  "spice": "🌶️🌶️ Fiery Hot",
+  "available": true,
+  "image": "images/noodles.jpg",
+  "description": "Wok-tossed noodles with scrambled farm eggs, shredded cabbage, carrots, bell peppers, and in-house fiery Schezwan chilli oil.",
+  "sizes": [
+    {
+      "name": "Single Bowl",
+      "price": 0
+    },
+    {
+      "name": "Meal with Manchurian Gravy",
+      "price": 80
+    }
+  ],
+  "toppings": [
+    {
+      "name": "Fried Sunny Egg on Top",
+      "price": 25
+    },
+    {
+      "name": "Extra Schezwan Sauce",
+      "price": 20
+    }
+  ]
+},
+{
+  "id": 1009,
+  "restaurantId": "r10",
+  "restaurantName": "Wok & Roll Asian Street",
+  "name": "Crispy Vegetable Spring Rolls",
+  "category": "Dim Sum & Starters",
+  "price": 199,
+  "rating": 4.7,
+  "reviews": 470,
+  "prepTime": "12 min",
+  "calories": "340 kcal",
+  "diet": "veg",
+  "spice": "🌶️ Mild",
+  "available": true,
+  "image": "images/springroll.jpg",
+  "description": "Crispy filo pastry rolls stuffed with julienned veggies and glass noodles, fried until shatteringly crisp. Served with sweet chilli dip.",
+  "sizes": [
+    {
+      "name": "4 Rolls",
+      "price": 0
+    },
+    {
+      "name": "8 Rolls Platter",
+      "price": 140
+    }
+  ],
+  "toppings": [
+    {
+      "name": "Sweet Chilli Dip",
+      "price": 20
+    }
+  ]
+},
+{
+  "id": 1108,
+  "restaurantId": "r11",
+  "restaurantName": "Haldiram's Sweets & Chaat Express",
+  "name": "Crispy Punjabi Samosa with Chole",
+  "category": "Hot Snacks & Chaat",
+  "price": 129,
+  "rating": 4.9,
+  "reviews": 950,
+  "prepTime": "5 min",
+  "calories": "410 kcal",
+  "diet": "veg",
+  "spice": "🌶️ Medium",
+  "available": true,
+  "image": "images/samosa.jpg",
+  "description": "Two flaky golden triangular samosas crushed and smothered in spicy Amritsari chole, sweet tamarind chutney, and fresh mint dip.",
+  "sizes": [
+    {
+      "name": "2 Samosas with Chole",
+      "price": 0
+    }
+  ],
+  "toppings": [
+    {
+      "name": "Extra Sweet Saunth Chutney",
+      "price": 15
+    },
+    {
+      "name": "Sev & Pomegranate Crunch",
+      "price": 15
+    }
+  ]
+},
+{
+  "id": 1109,
+  "restaurantId": "r11",
+  "restaurantName": "Haldiram's Sweets & Chaat Express",
+  "name": "Royal Kaju Katli & Gulab Jamun Box",
+  "category": "Mithai & Sweets",
+  "price": 249,
+  "rating": 5,
+  "reviews": 1340,
+  "prepTime": "5 min",
+  "calories": "450 kcal",
+  "diet": "veg",
+  "spice": "🟢 Sweet",
+  "available": true,
+  "image": "images/indian_sweets.jpg",
+  "description": "Assorted festive sweet box featuring diamond-cut pure silver-foiled Kaju Katli (200g) and two soft warm ghee Gulab Jamuns in saffron syrup.",
+  "sizes": [
+    {
+      "name": "Assorted Box (350g)",
+      "price": 0
+    },
+    {
+      "name": "Festive Gift Pack (700g)",
+      "price": 220
+    }
+  ],
+  "toppings": [
+    {
+      "name": "Extra Warm Gulab Jamun (2 pcs)",
+      "price": 50
+    }
+  ]
+},
+{
+  "id": 1208,
+  "restaurantId": "r12",
+  "restaurantName": "Chai Point & Irani Chai Bakery",
+  "name": "Authentic Hyderabadi Maska Bun",
+  "category": "Bakery & Buns",
+  "price": 69,
+  "rating": 4.9,
+  "reviews": 1450,
+  "prepTime": "3 min",
+  "calories": "280 kcal",
+  "diet": "veg",
+  "spice": "🟢 Sweet & Salty",
+  "available": true,
+  "image": "images/bun_maska.jpg",
+  "description": "Pillow-soft fresh bakery bun generously slathered with wholesome salted Amul butter and sweetened cream. Best enjoyed dipped in Irani Chai.",
+  "sizes": [
+    {
+      "name": "Single Bun Maska",
+      "price": 0
+    },
+    {
+      "name": "Bun Maska + Irani Chai Combo",
+      "price": 35
+    }
+  ],
+  "toppings": [
+    {
+      "name": "Tutti Frutti / Jam Spread",
+      "price": 15
+    }
+  ]
+},
+{
+  "id": 1209,
+  "restaurantId": "r12",
+  "restaurantName": "Chai Point & Irani Chai Bakery",
+  "name": "Traditional South Indian Filter Coffee",
+  "category": "Hot Brews",
+  "price": 59,
+  "rating": 4.9,
+  "reviews": 1890,
+  "prepTime": "4 min",
+  "calories": "120 kcal",
+  "diet": "veg",
+  "spice": "🟢 Aromatic",
+  "available": true,
+  "image": "images/filter_coffee.jpg",
+  "description": "Frothy, steaming degree filter coffee brewed from freshly ground chicory-infused Arabica plantation beans and whole boiled milk in dabarah set.",
+  "sizes": [
+    {
+      "name": "Regular Brass Tumbler",
+      "price": 0
+    },
+    {
+      "name": "Large Double Shot",
+      "price": 25
+    }
+  ],
+  "toppings": [
+    {
+      "name": "Extra Froth & Decoction",
+      "price": 10
+    }
+  ]
+}
 ];
 
 // Global Orders Store (Real-time Shared State across portals)
