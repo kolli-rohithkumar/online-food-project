@@ -87,7 +87,7 @@ export default function CustomerView({
 
     return (
       <main className="main-content">
-        <div className="container" style={{ paddingTop: '20px' }}>
+        <div className="restaurant-detail-view" style={{ paddingTop: '20px' }}>
           
           {/* Breadcrumb / Back Navigation */}
           <div style={{ marginBottom: '20px' }}>
@@ -249,7 +249,7 @@ export default function CustomerView({
 
                 <div className="food-grid" style={{
                   display: 'grid',
-                  gridTemplateColumns: 'repeat(auto-fill, minmax(320px, 1fr))',
+                  gridTemplateColumns: 'repeat(auto-fit, minmax(360px, 1fr))',
                   gap: '20px'
                 }}>
                   {items.map(item => {
@@ -315,8 +315,8 @@ export default function CustomerView({
                           </p>
                         </div>
 
-                        <div style={{ width: '120px', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-                          <div style={{ width: '120px', height: '100px', borderRadius: 'var(--radius-sm)', overflow: 'hidden', position: 'relative', marginBottom: '8px' }}>
+                        <div style={{ width: '130px', flexShrink: 0, display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+                          <div style={{ width: '130px', height: '105px', borderRadius: 'var(--radius-sm)', overflow: 'hidden', position: 'relative', marginBottom: '8px' }}>
                             <img 
                               src={item.image} 
                               alt={item.name}

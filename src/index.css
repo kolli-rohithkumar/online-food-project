@@ -1,1 +1,32 @@
-/* Inherits all BiteDash styling from styles.css */
+/* Container Constraints to prevent content stretching to screen edges */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.restaurant-detail-view {
+  max-width: 980px;
+  margin: 1.5rem auto 4rem;
+  padding: 0 1.25rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Responsive adjustment for extra large screens */
+@media (min-width: 1600px) {
+  .container {
+    max-width: 1280px;
+  }
+  .restaurant-detail-view {
+    max-width: 1020px;
+  }
+}
+
+/* Ensure images never overflow their container */
+img {
+  max-width: 100%;
+  height: auto;
+}
